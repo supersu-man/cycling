@@ -3,24 +3,6 @@
 	src: url(assets/Rubik.ttf);
 }
 
-a {
-	text-decoration: none !important;
-	color: inherit;
-	border-radius: 50px;
-}
-
-a:hover {
-	scale: 0.96;
-}
-
-a:hover super-marquee {
-	opacity: 1 !important;
-}
-
-.transition {
-	transition-duration: 300ms;
-}
-
 img {
 	max-height: 220px !important;
 }
