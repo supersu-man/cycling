@@ -2,6 +2,7 @@
     {
         "heading": "Hyderabad to Delhi - 1578km",
         "date": "1st March 2020 - 10th March 2020",
+        "description": "Day 1 : Hyderabad - Armoor (197.30km) <br> Day 2 : Armoor - Hinganghat (237.36km) <br> Day 3 : Hinganghat - Sausar (151.34km) <br> Day 4 : Sausar - Harrai (138.23km) <br> Day 5 : Harrai - Sagar (181.25km) <br> Day 6 : Sagar - Jhansi (211.12km) <br> Day 7 : Jhansi - Dholpur (185.46km) <br> Day 8 : Dholpur - Agra (72.94km) <br> Day 9 : Agra - Aurangabad (131.64km) <br> Day 10: Aurangabad - Delhi (71.63km)",
         "images": [
             "delhi/delhi1.jpg",
             "delhi/delhi2.jpg",
@@ -21,6 +22,7 @@
     {
         "heading": "Hyderabad to Goa - 744km",
         "date": "22nd November 2019 - 25th November 2019",
+        "description": "Day 1 : Hyderabad to Raichur (218km) <br> Day 2 : Raichur to Gadag (219km) <br> Day 3 : Gadag to Belgaum (180km) <br> Day 4 : Belgaum to Vasco da Gama (130km)",
         "images": [
             "goa/htg7.jpg",
             "goa/htg4.jpg",
@@ -34,6 +36,7 @@
     {
         "heading": "Hyderabad to Ananthapur - 363km",
         "date": "23rd May 2019 - 25th May 20119",
+        "description": "I had planned to ride from Hyderabad to Bengaluru (500km+), but unfortunately I had to stop at Ananthapur due to the chaos on the roads caused by the election results.",
         "images": [
             "ananthapur/hta1.jpg",
             "ananthapur/hta2.jpg"
