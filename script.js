@@ -13,9 +13,10 @@ async function loadData(){
                 eventList+=eventTemplate(index, event.heading, event.date, event.description, event.images)
             })
             document.body.innerHTML += eventList
+            
             let script = document.createElement('script')
             script.id = "ID";
-            script.src = "https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js";
+            script.src = "https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.5/jquery.nanogallery2.min.js";
             script.type = "text/javascript";
             document.getElementsByTagName('head')[0].appendChild(script);
         }
@@ -43,7 +44,7 @@ let eventTemplate = (index, heading, date, description, images) => {
                 </div>
             </div>
         </div>
-        <div id="nanogallery2" class="pb-2" data-nanogallery2='{ "thumbnailHeight": 200, "thumbnailWidth": "auto", "itemsBaseURL": "/assets/images/", "thumbnailBorderHorizontal": 0, "thumbnailBorderVertical": 0}'>
+        <div class="pb-2" data-nanogallery2='{ "thumbnailHeight": 200, "thumbnailWidth": "auto", "itemsBaseURL": "/assets/images/", "thumbnailBorderHorizontal": 0, "thumbnailBorderVertical": 0, "thumbnailDisplayOutsideScreen": true}'>
             ${eventImages}
         </div>
     `
